@@ -21,7 +21,6 @@ public class BSTSet<E extends Comparable<E>> implements Set<E>{
     public boolean contains(E e) {
         return bst.contains(e);
     }
-    
 
     @Override
     public int getSize() {
